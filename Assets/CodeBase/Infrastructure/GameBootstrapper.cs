@@ -13,4 +13,4 @@ namespace CodeBase.Infrastructure.Main
             DontDestroyOnLoad(this);
         }
     }
-}
+} 
