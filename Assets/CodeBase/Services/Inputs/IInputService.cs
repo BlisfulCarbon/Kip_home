@@ -6,6 +6,6 @@ namespace CodeBase.Services.Inputs
     {
         Vector2 Axis { get; }
 
-        bool isAttakButtonUp();
+        bool IsAttackButtonUp();
     }
 }

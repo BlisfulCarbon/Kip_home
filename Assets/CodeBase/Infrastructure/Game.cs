@@ -1,11 +1,11 @@
 ﻿using CodeBase.Services.Inputs;
 using UnityEngine;
 
-namespace CodeBase.Infrastructure
+namespace CodeBase.Infrastructure.Main
 {
     public class Game
     {
-        public IInputService InputService;
+        public static InputService InputService;
         
         public  Game()
         {

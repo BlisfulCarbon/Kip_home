@@ -8,15 +8,15 @@ namespace CodeBase.Services.Inputs
         {
             get
             {
-                Vector2 axis = GetSimpleInputAxis();
+                Vector2 axis = SimpleInputAxis();
 
                 if (axis == Vector2.zero)
-                    UnityAxis();
-
+                    axis = UnityAxis();
                 return axis;
             }
         }
 
-        private static void UnityAxis() => new Vector2(UnityEngine.Input.GetAxis(Horizontal), UnityEngine.Input.GetAxis(Vertical));
+        private static Vector2 UnityAxis() =>
+            new Vector2(UnityEngine.Input.GetAxis(Horizontal), UnityEngine.Input.GetAxis(Vertical));
     }
 }

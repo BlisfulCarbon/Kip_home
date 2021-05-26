@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CodeBase.Infrastructure
+namespace CodeBase.Infrastructure.Main
 {
     public class GameBootstrapper : MonoBehaviour
     {
@@ -13,4 +13,4 @@ namespace CodeBase.Infrastructure
             DontDestroyOnLoad(this);
         }
     }
-}
+} 
