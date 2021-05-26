@@ -5,7 +5,7 @@ namespace CodeBase.Infrastructure.Main
 {
     public class Game
     {
-        public static IInputService InputService;
+        public static InputService InputService;
         
         public  Game()
         {
