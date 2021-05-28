@@ -62,8 +62,14 @@
      <Compile Include="Assets\CodeBase\Constant\GameConstants.cs" />
      <Compile Include="Assets\CodeBase\Hero\HeroAnimator.cs" />
      <Compile Include="Assets\CodeBase\Hero\HeroMove.cs" />
+     <Compile Include="Assets\CodeBase\Infrastructure\BootstrapState.cs" />
      <Compile Include="Assets\CodeBase\Infrastructure\Game.cs" />
      <Compile Include="Assets\CodeBase\Infrastructure\GameBootstrapper.cs" />
+     <Compile Include="Assets\CodeBase\Infrastructure\GameStateMachine.cs" />
+     <Compile Include="Assets\CodeBase\Infrastructure\ICoroutineRunner.cs" />
+     <Compile Include="Assets\CodeBase\Infrastructure\IState.cs" />
+     <Compile Include="Assets\CodeBase\Infrastructure\LoadLevelState.cs" />
+     <Compile Include="Assets\CodeBase\Infrastructure\SceneLoader.cs" />
      <Compile Include="Assets\CodeBase\Logic\AnimatorState.cs" />
      <Compile Include="Assets\CodeBase\Logic\IAnimationStateReader.cs" />
      <Compile Include="Assets\CodeBase\Services\Inputs\IInputService.cs" />
