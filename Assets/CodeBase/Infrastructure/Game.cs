@@ -6,18 +6,11 @@ namespace CodeBase.Infrastructure.Main
     public class Game
     {
         public static InputService InputService;
-        
+        public GameStateMachine StateMachine;
+
         public  Game()
         {
-            RegisterInputService();
-        }
-
-        private void RegisterInputService()
-        {
-            if (Application.isEditor)
-                InputService = new StandaloneInputServiceImpl();
-            else
-                InputService = new MobileInputServiceImpl();
+            StateMachine = new GameStateMachine();
         }
     }
 }
